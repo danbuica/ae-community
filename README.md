@@ -46,4 +46,4 @@ When adding a new agent to an existing group, also list it in that group's READM
 
 ## License
 
-TBD.
+[MIT](./LICENSE) — use it, fork it, ship it. Just keep the copyright notice.
