@@ -1,0 +1,13 @@
+{
+  "name": "motion-animations-exporter",
+  "version": "1.0.0",
+  "description": "Export HTML/CSS/GSAP animations into transparent Apple ProRes 4444 .mov videos.",
+  "main": "export-animation.js",
+  "scripts": {
+    "export": "node export-animation.js",
+    "screenshot": "node test-screenshot.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "brand": {
+    "channel_name": "<YOUR_CHANNEL_NAME>",
+    "subject_name": "<YOUR_NAME>",
+    "vibe": "dark, intense, tech-forward, cinematic",
+    "palette": {
+      "background": "#121212",
+      "accent_1": "#00E5FF",
+      "accent_2": "#FF6D00",
+      "text_primary": "#FFFFFF",
+      "text_secondary": "#E0E0E0"
+    },
+    "fonts": {
+      "heading": "Inter",
+      "body": "Roboto Mono"
+    }
+  },
+
+  "thumbnail": {
+    "subject_image": "resources/subject.png",
+    "logos_dir": "resources/app-logos",
+    "output_dir": "thumbnails",
+    "model": "gpt-image-2",
+    "size": "1280x720",
+    "quality": "high",
+    "output_format": "png",
+    "clothing_options": [
+      "fitted black t-shirt",
+      "matte black crew-neck tee",
+      "dark charcoal t-shirt",
+      "dark gray heathered t-shirt",
+      "fitted white t-shirt"
+    ],
+    "expressions": [
+      "confused",
+      "happy",
+      "serious",
+      "shocked",
+      "intense focus",
+      "smirking",
+      "determined",
+      "amazed"
+    ],
+    "style": {
+      "background": "dark mode with blurred, on-topic tech elements",
+      "graphics": [
+        "3D glassmorphism icons",
+        "glowing arrows",
+        "connection nodes",
+        "UI screenshots"
+      ],
+      "composition_preferences": [
+        "split (text left / subject right)",
+        "rule of thirds",
+        "centered (text top & bottom)",
+        "dynamic diagonal"
+      ],
+      "text_treatment": "massive bold sans-serif in the primary text color, with accent-colored highlights on key words",
+      "subject_framing": "head and shoulders, cleanly separated from the background",
+      "mood": "high-contrast, cinematic, premium",
+      "reference_notes": ""
+    },
+    "subject_lighting_block": "Light the subject with a 3-point cinematic setup: a warm key light from the front-left creating natural shadows on the right side of the face, a soft fill light from the front-right to prevent crushed blacks, and a strong accent rim/edge light from behind (use accent_1) outlining the hair and shoulders. Skin should have warm, natural tones with visible highlights and shadows, NOT flat or uniformly lit. Add a subtle catchlight reflection in the eyes."
+  },
+
+  "description": {
+    "platform_notion": {
+      "content_calendar_url": "<YOUR_NOTION_CONTENT_CALENDAR_URL>",
+      "content_calendar_data_source": "<YOUR_NOTION_DATA_SOURCE_ID>"
+    },
+    "community_link": "<YOUR_FREE_COMMUNITY_LINK>",
+    "community_blurb": "Join my FREE community",
+    "subscribe_cta": "Subscribe for weekly builds and real workflows you can copy.",
+    "format_signals": {
+      "long_form_icon": "🎯",
+      "short_icon": "📱",
+      "shorts_batch_prefix": "📱 Shorts Week of"
+    }
+  },
+
+  "motion": {
+    "output_dir": "motion-animations",
+    "logos_dir": "resources/app-logos",
+    "default_width": 1920,
+    "default_height": 1080,
+    "default_fps": 60,
+    "default_duration": 6
+  }
+}

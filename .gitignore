@@ -52,6 +52,15 @@ marketing-agencies-agents/data/clients/
 marketing-agencies-agents/data/uploads/
 marketing-agencies-agents/brandbounce-onboarding/src/data/submissions/
 
+# YouTube content agents — personal config, assets, and generated output
+youtube-content-agents/config.json
+youtube-content-agents/resources/subject.*
+youtube-content-agents/resources/app-logos/*
+!youtube-content-agents/resources/app-logos/.gitkeep
+youtube-content-agents/thumbnails/
+youtube-content-agents/motion-animations/
+*.mov
+
 # Certs / keys
 *.pem
 *.key
