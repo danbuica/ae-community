@@ -17,6 +17,12 @@ ae-community/
 
 Every agent folder is self-contained: its own code, dependencies, and setup instructions. There is no top-level install step.
 
+## Groups in this repo
+
+- [`marketing-agencies-agents/`](./marketing-agencies-agents) — running a marketing agency's output: client onboarding, brand style guides, content planning, branded image + ad generation, and blog repurposing.
+- [`youtube-content-agents/`](./youtube-content-agents) — YouTube content production: click-worthy thumbnails, SEO descriptions (Notion-driven), and branded motion graphics.
+- [`dev-workflow-agents/`](./dev-workflow-agents) — a spec-driven dev pipeline (plan → implement → review → QA) coordinated through a Notion task database.
+
 ## Getting an agent
 
 You don't have to clone the whole repo — you can grab just the agent you want.
